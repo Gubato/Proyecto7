@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("/Users/luisdgr/Desktop/Proyectos TripleTen/Proyecto7/Proyecto7/notebooks/vehicles_us.csv")
+df = pd.read_csv("vehicles_us.csv")
 
 st.header("Generacion de graficos")
 
